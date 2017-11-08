@@ -70,10 +70,10 @@ header nav a.active {
 }
 
 #home .social a {
-	color: white;
+	color: black;
 	display: inline-block;
 	border-radius: 50%;
-	background-color: black;
+	background-color: green;
 	font-size: 24px;
 	font-weight: bold;
 	height: 50px;
