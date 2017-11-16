@@ -46,10 +46,21 @@
 		<section id="contacto">
 			<h2>CONTACTO</h2>
 
-			<form>
-				<div><input type="text" placeholder="Tu email"></div>
-				<div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
-				<button>ENVIAR</button>
+			<form action="https://getsimpleform.com/messages?form_api_token=670fb2da3f77ee6a1c607be32b6f1b3f" method="post">
+			  <input type='hidden' name='redirect_to' value='https://felirangelp.github.io' />
+			  <label for='name'>Name</label>
+			  <br />
+			  <input type='text' id='name' name='name' placeholder='Your Name' />
+			  <br />
+			  <label for='email'>Email</label>
+			  <br />
+			  <input type='text' id='email' name='email' placeholder='Your Email' />
+			  <br />
+			  <label for='email'>Message</label>
+			  <br />
+			  <textarea id='message' name='message' placeholder='Message' rows='8' cols='50'></textarea>
+			  <br />
+			  <input type='submit' value='Submit' />
 			</form>
 		</section>
 
