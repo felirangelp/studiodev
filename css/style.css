@@ -7,7 +7,7 @@ body {
 }
 
 .home-wrapper {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center top;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/Photo.jpg') no-repeat center top;
 	background-size: cover;
 	color: white;
 }
@@ -20,7 +20,7 @@ header {
 }
 
 header img {
-	width: 200px;
+	width: 250px;
 }
 
 header nav {
@@ -29,7 +29,7 @@ header nav {
 }
 
 header nav a {
-	color: white;
+	color: black;
 	font-weight: bold;
 	text-decoration: none;
 	margin-left: 10px;
@@ -37,7 +37,7 @@ header nav a {
 }
 
 header nav a.active {
-	background: #fed136;
+	background: #C8FE2E;
 	border-radius: 3px;
 }
 
@@ -47,7 +47,7 @@ header nav a.active {
 }
 
 #home h1 {
-	color: white;
+	color: #C8FE2E;
 	font-size: 68px;
 	font-weight: normal;
 	line-height: 1.2;
@@ -56,7 +56,7 @@ header nav a.active {
 
 #home .divider {
 	width: 80px;
-	border-top: 5px solid #fed136;
+	border-top: 5px solid #C8FE2E;
 	margin: 0 auto;
 }
 
@@ -100,6 +100,25 @@ header nav a.active {
 	background-color: black;
 	text-align: center;
 	padding: 30px 0;
+}
+
+#POC {
+	text-align: center;
+	padding: 10px 0 10px;
+}
+
+#POC h1 {
+	color: black;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+
+#email {
+	padding: 10px 0;
+	text-align: center;
+	font-size: 18px;
 }
 
 #portafolio {
@@ -160,7 +179,7 @@ header nav a.active {
 }
 
 footer {
-	padding: 90px 0;
+	padding: 30px 0;
 	text-align: center;
 	font-size: 18px;
 }
