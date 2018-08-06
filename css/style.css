@@ -19,13 +19,14 @@ header {
 	background-color: rgba(48, 48, 48, 0.5);
 }
 
-header img {
-	width: 250px;
+#logo {
+	width: 170px;
+	float: left;	
 }
 
 header nav {
 	float: right;
-	margin-top: 10px;
+	margin-top: 50px;
 }
 
 header nav a {
