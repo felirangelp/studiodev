@@ -37,7 +37,20 @@ header nav a {
 	padding: 10px 15px;
 }
 
+#volver {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px;
+}
+
 header nav a.active {
+	background: #C8FE2E;
+	border-radius: 3px;
+}
+
+#volver.active {
 	background: #C8FE2E;
 	border-radius: 3px;
 }
