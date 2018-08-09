@@ -37,23 +37,13 @@ header nav a {
 	padding: 10px 15px;
 }
 
-#volver {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
-	margin-left: 10px;
-	padding: 10px 15px;
-}
+
 
 header nav a.active {
 	background: #C8FE2E;
 	border-radius: 3px;
 }
 
-#volver.active {
-	background: #C8FE2E;
-	border-radius: 3px;
-}
 
 #home {
 	text-align: center;
@@ -79,36 +69,6 @@ header nav a.active {
 	margin-top: 40px;
 }
 
-#home .social {
-	margin-top: 80px;
-}
-
-#home .social a {
-	color: black;
-	display: inline-block;
-	border-radius: 50%;
-	background-color: green;
-	font-size: 24px;
-	font-weight: bold;
-	height: 50px;
-	width: 50px;
-	line-height: 50px;
-	margin-right: 10px;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	transition: all .3s;
-}
-
-#home .social a:hover {
-	background-color: #fed136;
-}
-
-#servicios .box {
-	display: inline-block;
-	text-align: center;
-	width: 33%;
-	padding: 10px
-}
 
 #video {
 	background-color: black;
@@ -135,26 +95,6 @@ header nav a.active {
 	font-size: 18px;
 }
 
-#portafolio {
-	background-color: whitesmoke;
-}
-
-#portafolio .box {
-	display: inline-block;
-	text-align: center;
-	width: 31%;
-	margin: 1%;
-	background-color: white;
-}
-
-#portafolio .box img {
-	width: 100%
-}
-
-#portafolio .box p {
-	color: #666;
-	padding: 10px;
-}
 
 #contacto {
 	background-color: #303030;
@@ -214,6 +154,16 @@ section h2 {
 	font-size: 32px;
 	text-align: center;
 	margin-bottom: 80px;
+}
+
+section a.volver{
+	background: #C8FE2E;
+	border-radius: 3px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px;
 }
 
 .container {
